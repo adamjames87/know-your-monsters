@@ -128,6 +128,15 @@
       funnyFact: 'Its poos are so powerful they can turn a person into a parrot'
     },
     {
+      name: 'Invisible Beast',
+      rating: 7,
+      description: 'This thing may look like nothing, but things are not what they seem.',
+      video: '/videos/invisiblebeast.mp4',
+      feature: 'Can turn invisible',
+      feedsOn: 'Nobody knows. Whatever it touches disappears',
+      funnyFact: 'Some people believe that the invisible beast was a giant monstrous poo'
+    },
+    {
       name: 'Night Light Terrors',
       rating: 4,
       description: 'A group of monsters that come out at night',
