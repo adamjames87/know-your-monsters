@@ -163,6 +163,15 @@
       feedsOn: 'Fire',
       funnyFact: 'The brother of Godzilla and other related monsters'
     },
+    {
+      name: 'The Ice King',
+      rating: 3,
+      description: 'A giant four-armed snowman',
+      video: '/videos/iceking.mp4',
+      feature: 'Biggest ice creature in the land',
+      feedsOn: 'Stars',
+      funnyFact: 'This creature is not funny. At all.'
+    },
   ]
 </script>
 
