@@ -154,6 +154,15 @@
       feedsOn: 'Plants mostly',
       funnyFact: 'Poos out trees and undergrowth'
     },
+    {
+      name: 'Flamezilla',
+      rating: 4,
+      description: 'A giant spike covered flame creature',
+      video: '/videos/flamezilla.mp4',
+      feature: 'Beastly servant to the beast king, Eye of Flames',
+      feedsOn: 'Fire',
+      funnyFact: 'The brother of Godzilla and other related monsters'
+    },
   ]
 </script>
 
