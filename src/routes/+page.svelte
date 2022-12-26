@@ -190,6 +190,15 @@
       feedsOn: 'Total bummers',
       funnyFact: 'Total bummers are actually good (not in real life)'
     },
+    {
+      name: 'Wormungulous',
+      rating: 12,
+      description: 'One of the total bummer family.',
+      video: '/videos/wormungulous.mp4',
+      feature: 'Enormous worm-like mouth',
+      feedsOn: 'Other wormungulouses',
+      funnyFact: 'One of its favourite foods is its own poo'
+    },
   ]
 </script>
 
