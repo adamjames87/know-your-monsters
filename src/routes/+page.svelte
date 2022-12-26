@@ -181,6 +181,15 @@
       feedsOn: 'Hug Slug relatives',
       funnyFact: 'The Lemschkin, like Ice King, is 0 funny'
     },
+    {
+      name: 'Goat-e-Bum',
+      rating: 10,
+      description: 'The Goat-e-Bum is a goat-like 3-eyed monster',
+      video: '/videos/goatebum.mp4',
+      feature: 'Poisonous horns',
+      feedsOn: 'Total bummers',
+      funnyFact: 'Total bummers are actually good (not in real life)'
+    },
   ]
 </script>
 
