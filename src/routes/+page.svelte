@@ -172,6 +172,15 @@
       feedsOn: 'Stars',
       funnyFact: 'This creature is not funny. At all.'
     },
+    {
+      name: 'Lemschkin',
+      rating: 3,
+      description: 'The Lemschkin\'s skin getting light, was created by using capacity going down',
+      video: '/videos/lemschkin.mp4',
+      feature: 'Total bummer to have around. (Bummer means good)',
+      feedsOn: 'Hug Slug relatives',
+      funnyFact: 'The Lemschkin, like Ice King, is 0 funny'
+    },
   ]
 </script>
 
