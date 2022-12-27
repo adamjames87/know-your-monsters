@@ -199,6 +199,24 @@
       feedsOn: 'Other wormungulouses',
       funnyFact: 'One of its favourite foods is its own poo'
     },
+    {
+      name: 'Know-em-all',
+      rating: 100,
+      description: 'Part of the entire system of Know Your Monsters',
+      video: '/videos/knowemall.mp4',
+      feature: 'Combination of all the monsters',
+      feedsOn: 'Everything',
+      funnyFact: 'Most of these monsters funny facts are about poo'
+    },
+    {
+      name: 'Eye-Ballicus',
+      rating: 20,
+      description: 'Monster made of eyeballs',
+      video: '/videos/eyeguy.mp4',
+      feature: 'Bigger than cities',
+      feedsOn: 'Pudgy Pig (see below)',
+      funnyFact: 'They eyeball monster is featured in beast fight war videos (see later in Know Your Monsters)'
+    },
   ]
 </script>
 
