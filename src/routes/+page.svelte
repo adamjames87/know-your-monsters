@@ -233,7 +233,7 @@
       description: 'Hi my name is a Gundorthor and I live in the mountains of Kropea, great servant of Pico (see earlier in Know Your Monsters)',
       video: '/videos/gunderthor.mp4',
       feature: 'I asked these authors not to call me a total bummer so they called me a total annoyance instead. Now it is worse.',
-      feedsOn: 'Donuts and Burgers and stuff like that',
+      feedsOn: 'Donuts and burgers and stuff like that',
       funnyFact: 'Most dangerous ever to step into know your monsters so far',
       powerRating: 20
     },
