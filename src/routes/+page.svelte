@@ -217,6 +217,17 @@
       feedsOn: 'Pudgy Pig (see below)',
       funnyFact: 'They eyeball monster is featured in beast fight war videos (see later in Know Your Monsters)'
     },
+    {
+      name: 'Pudgy Pig',
+      rating: 3,
+      description: 'Giant food-loving pig monster',
+      video: '/videos/pudgypig.mp4',
+      feature: 'Total bummer, and not in a good way',
+      feedsOn: 'Everything',
+      funnyFact: 'Cannot stop his appetite',
+      powerRating: 1
+
+    },
   ]
 </script>
 

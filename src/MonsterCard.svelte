@@ -1,7 +1,7 @@
 <script>
   import RatingRow from "./components/RatingRow.svelte";
   import SkullRating from "./components/SkullRating.svelte";
-  export let name = 'world';
+  import LightningBoltRow from "./components/LightningBoltRow.svelte";
   export let monster = {
     name: 'Goblin',
     rating: 1,
@@ -37,6 +37,11 @@
       </RatingRow>
       <RatingRow key="Feeds On">{monster.feedsOn}</RatingRow>
       <RatingRow key="Funny Fact">{monster.funnyFact}</RatingRow>
+      {#if monster.powerRating}
+      <RatingRow key="Power Rating">
+        <LightningBoltRow rating={monster.powerRating} />
+      </RatingRow>
+      {/if}
     </div>
   </div>
 </div>
