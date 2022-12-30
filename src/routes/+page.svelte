@@ -237,6 +237,16 @@
       funnyFact: 'Most dangerous ever to step into know your monsters so far',
       powerRating: 20
     },
+    {
+      name: 'Mosho Splosh',
+      rating: 20,
+      description: 'Hello, I\'m MoshoSplosh. Cousin of MoshoGoth the giant tentancled monster. It\'s MoshoSplosh because I live in water unlike my cousin.',
+      video: '/videos/moshisplosh.mp4',
+      feature: 'Long eyes that come out of my back',
+      feedsOn: 'I would like to eat sweets, biscuits and cakes, but since I live in the water there\'s no chance of that',
+      funnyFact: 'My author\'s accidentally put my in the wrong way round in the video',
+      powerRating: 20
+    },
   ]
 </script>
 
