@@ -247,6 +247,16 @@
       funnyFact: 'My author\'s accidentally put my in the wrong way round in the video',
       powerRating: 20
     },
+    {
+      name: 'Alien Zombies',
+      rating: 30,
+      description: 'Big, deadly, furry, three-eyed monsters.',
+      video: '/videos/alienzombies.mp4',
+      feature: 'Mostly come out in the dark or at night',
+      feedsOn: 'Alien zombies come out in the middle of the night to feed on your sweets and biscuits',
+      funnyFact: 'Alien Zombies are extremely disgusted by lovely music',
+      powerRating: 50
+    },
   ]
 </script>
 
