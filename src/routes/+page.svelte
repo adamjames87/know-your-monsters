@@ -264,12 +264,29 @@
 ">Welcome to Know your Monsters</h1>
 <p class="text-gray-500 text-center mb-4 mt-2 text-sm mb-2">A collection of monsters curated by world famous monster hunter Henry James</p>
 
+
 <div class="grid grid-cols-1 gap-12">
 {#each monsters as monster}
     <MonsterCard {monster} />
   {/each}
 </div>
+<div class="border border-red-400 bg-red-100 p-6 rounded mt-4">
+    <h2 class="text-3xl text-center font-bold text-red-700 uppercase font-amatic">
+        Coming Soon...
+    </h2>
+    <div class="py-6">
+        <img src="/coming_soon.png" alt="">
+    </div>
+    <div class="font-amatic text-red-800 font-semibold text-2xl">
+        Henry James is happy to have found another Know-Your-Monster. It has
+        been a long wait since he last found one. This monster was discovered
+        in Wales. He wonders if the monsters have just stopped living in England ?!
+        When he returned to England he found that monsters were just lying on the ground
+        with holes in their head like someone had been sucking on their brains. Henry will
+        investigate further in his next letter.
+    </div>
+</div>
 <div class="mt-12 border-t border-gray-200 pt-8 ">
-  <p class="text-base text-gray-400 xl:text-center">&copy; 2022 Dad &amp; Dopes Inc. All rights reserved.</p>
+  <p class="text-base text-gray-400 xl:text-center">&copy; 2023 Dad &amp; Dopes Inc. All rights reserved.</p>
 </div>
 
