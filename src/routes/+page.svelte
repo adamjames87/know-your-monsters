@@ -268,7 +268,7 @@
               'that this creature is attracted to goop on the reef. I had to jump on its head several time to get it to come' +
               'away from the reef',
           feedsOn: 'Strange purple goo on clams dipped in mayonnaise',
-          funnyFact: 'About twice the size of a grizzy bear and has bums and has bums on the end of its tongue',
+          funnyFact: 'About twice the size of a grizzy bear and has bums on the end of its tongue',
           powerRating: 3,
           tale: `Once upon a time when I was having fun at the beach then I heard a wailing sound. I came along and it was
               'something going 'moma, moma, moma'. I had found my next know your monster. I tried to shove it  in my suitcase,
@@ -278,6 +278,28 @@
                towards me. I leapt back and threw my suitcase towards the tentance pinning it to the grouns. 'Wwwwwaaaaah' it
                went as  I shoved it into my sack. Then I went home and we had pancakes for lunch. After that I shoved him
                into my ipad and put him on the internet for everyone to see.`
+      },
+      {
+          name: 'Bloody Beasties',
+          rating: 30,
+          description: `
+          Bloody frowing monsters that I accidentally created.
+          `,
+          video: '/videos/bloody-beasts.mp4',
+          feature: 'Made up of little bits of dead monsters',
+          feedsOn: 'Literally anything it can find',
+          funnyFact: 'I accidentally created the blood monsters by giving one of my inventions to much speed',
+          powerRating: 20,
+          tale: `Along time ago when I just started making monsters, I made an invention called the Chipper-Up 2000. It was
+          designed to  cut up bits of monsters so they could fit on the screen. When I put up the speed up too 100 then it
+          accidentally turned the dead monsters into bloody, vicious blood beasts. Luckily blood is dissolved by my super
+          fart spray, made from the worst farts ever found. It dissolved the beasts right up, but it did smell really bad, and
+          it wasn't wort it because one of the blood beasts managed to run out of the way. I ran despearately for the blood beast but
+          it ran faster, I got my sword out but it was no use, when I sliced at it it just went straight through. Just then I
+          had an idea. I put the chipper on to an even high speed, and then put my cat inside... It started to cut up my cat
+          and turn the cat, and turn the cat into an even more vicious blood beasts. My cat swallowed the othe blood beasts
+          and went down to the toilet. I managed to flush my cat down the toilet and into the sewers, never to return again.
+          Or were they...`
       },
   ]
 </script>
