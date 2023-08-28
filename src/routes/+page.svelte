@@ -283,7 +283,7 @@
           name: 'Bloody Beasties',
           rating: 30,
           description: `
-          Bloody frowing monsters that I accidentally created.
+          Bloody throwing monsters that I accidentally created.
           `,
           video: '/videos/bloody-beasts.mp4',
           feature: 'Made up of little bits of dead monsters',
@@ -300,6 +300,31 @@
            and turned the cat into an even more vicious blood beasts. My cat swallowed the other blood beasts
           and went down to the toilet. I managed to flush my cat down the toilet and into the sewers, never to return again.
           Or were they...`
+      },
+      {
+          name: 'Bad Kitty',
+          rating: 90,
+          description: `
+          A hypno-singing cat monster from the sewers
+          `,
+          video: '/videos/bad-kitty.mp4',
+          feature: 'Smells like year-old barf',
+          feedsOn: 'Wants to feed on humans, but cannot find any down in the sewers',
+          funnyFact: 'When it transformed, one if its head turned into the head of a bunny',
+          powerRating: 3,
+          tale: `Once upon a time I went for a walk down in the sewers. I was looking around to see
+          if there were any odd sewer sclichers. Then I heard a 'meeeeeoooooooow', and turned around. I said
+          ' oh it is a cat, goood kiiiiiity'. The cat reared up, it looked like my cat only drenched in sewer water,
+          red, and had a little tiny bunny beast on its back. 'You will be a barbeque by 2024' sang the cat. 'But it will
+          be much shorter, like you never wear short-wear' sang the cat again. 'Now become a tasty stew' he also sang. I tried
+          of it, and run away, but the trance was just too holding. I was almost trapped in then. Just then someone came in
+          with a house, and sprayed the creature into smitherines. I was saved. The problem one was it was very big. The
+          giant creature toppled down and a giant wave of red sludge came towards me. I was saved from the hypno-singing
+          but not this. I tried to run but my feet were stuck in the goop. The wave was approaching. I checked on my watch
+          and set a timer. There was only one minute before the wave hit me. At the brink of death I was grabbed up by
+          something violently. It was my dad. He said "I suppose being on that sewer adventure means you don't want those pancakes then".
+          "Nope" I said. "I still want those pancakes". And that is the end of the story of the bad kitty. Hope you check
+          in for the next Know-Your-Monsters tale`
       },
   ]
 </script>
