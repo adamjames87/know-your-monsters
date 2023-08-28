@@ -9,7 +9,9 @@
     video: '',
     feature: 'A feature',
     feedsOn: 'Feeds on',
-    funnyFact: 'A funny fact'
+    funnyFact: 'A funny fact',
+    tale: undefined,
+
   };
 
 </script>
