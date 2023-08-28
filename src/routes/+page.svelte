@@ -288,16 +288,16 @@
           video: '/videos/bloody-beasts.mp4',
           feature: 'Made up of little bits of dead monsters',
           feedsOn: 'Literally anything it can find',
-          funnyFact: 'I accidentally created the blood monsters by giving one of my inventions to much speed',
+          funnyFact: 'I accidentally created the blood monsters by giving one of my inventions too much speed',
           powerRating: 20,
           tale: `Along time ago when I just started making monsters, I made an invention called the Chipper-Up 2000. It was
-          designed to  cut up bits of monsters so they could fit on the screen. When I put up the speed up too 100 then it
+          designed to  cut up bits of monsters so they could fit on the screen. When I put up the speed up to 100 then it
           accidentally turned the dead monsters into bloody, vicious blood beasts. Luckily blood is dissolved by my super
           fart spray, made from the worst farts ever found. It dissolved the beasts right up, but it did smell really bad, and
-          it wasn't wort it because one of the blood beasts managed to run out of the way. I ran despearately for the blood beast but
+          it wasn't wort it because one of the blood beasts managed to run out of the way. I ran desperately for the blood beast but
           it ran faster, I got my sword out but it was no use, when I sliced at it it just went straight through. Just then I
-          had an idea. I put the chipper on to an even high speed, and then put my cat inside... It started to cut up my cat
-          and turn the cat, and turn the cat into an even more vicious blood beasts. My cat swallowed the othe blood beasts
+          had an idea. I put the chipper on to an even higher speed, and then put my cat inside... It started to cut up my cat
+           and turned the cat into an even more vicious blood beasts. My cat swallowed the other blood beasts
           and went down to the toilet. I managed to flush my cat down the toilet and into the sewers, never to return again.
           Or were they...`
       },
