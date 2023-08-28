@@ -42,6 +42,9 @@
         <LightningBoltRow rating={monster.powerRating} />
       </RatingRow>
       {/if}
+      {#if monster.tale}
+      <RatingRow key="Tale">{monster.tale}</RatingRow>
+        {/if}
     </div>
   </div>
 </div>

@@ -257,6 +257,28 @@
       funnyFact: 'Alien Zombies are extremely disgusted by lovely music',
       powerRating: 50
     },
+      {
+          name: 'Purple Oozer',
+          rating: 20,
+          description: 'My first know your monset in season 3. This one is the one I was talking about in my letters.' +
+              'I found it on a beach in Wales. I call it the Purple Oozer because it drips slime from little holes in its head ' +
+              'that nobody can see',
+          video: '/videos/purple-oozer.mp4',
+          feature: 'Seems to like something on the beaches of Wales. I think it is something strange like a reef. Later did I find' +
+              'that this creature is attracted to goop on the reef. I had to jump on its head several time to get it to come' +
+              'away from the reef',
+          feedsOn: 'Strange purple goo on clams dipped in mayonnaise',
+          funnyFact: 'About twice the size of a grizzy bear and has bums and has bums on the end of its tongue',
+          powerRating: 3,
+          tale: `Once upon a time when I was having fun at the beach then I heard a wailing sound. I came along and it was
+              'something going 'moma, moma, moma'. I had found my next know your monster. I tried to shove it  in my suitcase,
+               'grmm grmm' it wouldn't move. I tried again, it wouldn't move. I grabbed it by its tentacles and its skin,
+               and tried to pull it into my sack. Still it wouldn't budge. I finally had to do it the hard way. I pulled
+               out my sword just as the monster turned and grunted. 'Wwwwaaaaah' it wailed, and thrust its first tentacle
+               towards me. I leapt back and threw my suitcase towards the tentance pinning it to the grouns. 'Wwwwwaaaaah' it
+               went as  I shoved it into my sack. Then I went home and we had pancakes for lunch. After that I shoved him
+               into my ipad and put him on the internet for everyone to see.`
+      },
   ]
 </script>
 
@@ -271,22 +293,6 @@
 {#each monsters as monster}
     <MonsterCard {monster} />
   {/each}
-</div>
-<div class="border border-red-400 bg-red-100 p-6 rounded mt-4">
-    <h2 class="text-3xl text-center font-bold text-red-700 uppercase font-amatic">
-        Coming Soon...
-    </h2>
-    <div class="py-6">
-        <img src="/coming_soon.png" alt="">
-    </div>
-    <div class="font-amatic text-red-800 font-semibold text-2xl">
-        Henry James is happy to have found another Know-Your-Monster. It has
-        been a long wait since he last found one. This monster was discovered
-        in Wales. He wonders if the monsters have just stopped living in England ?!
-        When he returned to England he found that monsters were just lying on the ground
-        with holes in their head like someone had been sucking on their brains. Henry will
-        investigate further in his next letter.
-    </div>
 </div>
 <div class="mt-12 border-t border-gray-200 pt-8 ">
   <p class="text-base text-gray-400 xl:text-center">&copy; 2023 Dad &amp; Dopes Inc. All rights reserved.</p>

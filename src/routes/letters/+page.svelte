@@ -48,5 +48,56 @@
 
             </div>
         </div>
+        <div class="border border-red-400 bg-red-100 p-6 rounded mt-4">
+            <h2 class="text-3xl text-center font-bold text-red-700 uppercase font-amatic">
+                Monster Wars
+            </h2>
+            <div class="grid grid-cols-2 space-x-2">
+                    <img src="/monster-wars-1.png" alt="" class="">
+                    <img src="/meet-with-the-elders-1.png" alt="" class="">
+            </div>
+            <img src="/meet-with-the-elders-2.png" alt="" class="mt-2">
+            <p class="font-amatic text-red-800 font-semibold text-2xl mt-6">
+                I fell out of the pigs bag with a "fwwwnch!!" I grabbed my notebook just as I fell out to find right in
+                front of me was a hydra worm, and several hogs. "FIIIGHT" screamed the biggest hog. He had a skull on his head,
+                sharp black claws, big bulgin' red fists, pony tails (not exactly in keeping with the look of fear) and
+                teeth strapped onto his arms. The hydra worms plunged towards me, as I leapt out, I was frightened,
+                but soon I knew just what to do. When the hydra worm's head went left I went right, and when it went right I went left.
+                Soon it was so dizzy that it puked so much that it fell over. Destroyed. Just then some of the pigs came forwards,
+                they went "snort, snort snort" in the most piggy way. The biggest pig dropped down from its seat
+                and said "I am the best of level one. What do you want?". "Why are you called that?" I asked, as I reached
+                for my notebook. "Well, I'm the biggest of the children" replied the hog. "But why level one?" I asked.
+                "Well I guess there are the guards". Two giant green hulking guards came marching forwards. "Oh and I suppose
+                there's the king". Then a giant hog with a mask on rode out, riding on top of an enormous bull.
+            </p>
+        </div>
+        <div class="border border-red-400 bg-red-100 p-6 rounded mt-4">
+            <h2 class="text-3xl text-center font-bold text-red-700 uppercase font-amatic">
+                Brainsucker Revealed
+            </h2>
+            <div class="py-6">
+                <img src="/brainsucker-revs-beast.png" alt="" >
+            </div>
+            <div class="font-amatic text-red-800 font-semibold text-2xl">
+                <p>
+                    "sdlkjflaiihdlkjg" went the king of the hogs as he climed down. "lkj lkjfihw lkhd ioeoihtne moo"
+                    he laughed. "So we-dfl me-ldkjf-et finally". "I have been looking for you" the king said again.
+                    "Now it is time you learned who I actually am" as he grabbed his helment, and begain pulling
+                    and pulling at it, until it flew off, revealing a head covered in green splodges. "So bully is not the
+                    brainsucker" I muttered to myself, as I wrote in this very letter. "You are" I said out loud. Green
+                    antennae splodged off the brainsuckers face and one eye opened. "hmm mmm mmm" he said smirking
+                    and twisting his head around like a football. "I have good news, all your monsters are gone". I gasped.
+                    "No more monsters means no more viewers". "I think you are a bit wrong" I whispered as I opened my notebook.
+                    His face fumed and he puched his fist towards my iPa-
+                </p>
+                <p class="pt-2">
+                    Good news. I found a computer after he ripped my ipad. Indeed all of the monsters are gone. Every
+                    single one. And he is about to challenge me against one of the biggest baddest monsters in England.
+                    Nightsucker. He put a chain around Nightsuckers neck and thrust him towards me.  Nightsucker said
+                    "My time, has come" in a raspy voice.
+                </p>
+
+            </div>
+        </div>
     </div>
 </div>
