@@ -334,6 +334,8 @@
           feature: 'Grim cloak and purple skin',
           feedsOn: 'Creatures that his has killed before and then poisoned',
           funnyFact: 'Gruesome dogface is zero funny',
+          tale: 'He has no tale. But the authors say this: Gruesome dogface will eventually be made into ' +
+              'a toy in the next few years.',
           powerRating: 3
       },
   ]
