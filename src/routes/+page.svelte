@@ -326,6 +326,16 @@
           "Nope" I said. "I still want those pancakes". And that is the end of the story of the bad kitty. Hope you check
           in for the next Know-Your-Monsters tale`
       },
+      {
+          name: 'Gruesome Dogface',
+          rating: 20,
+          description: 'Even though incredibly gruesome, has an hilarious name',
+          video: '/videos/gruesome-dogface.mp4',
+          feature: 'Grim cloak and purple skin',
+          feedsOn: 'Creatures that his has killed before and then poisoned',
+          funnyFact: 'Gruesome dogface is zero funny',
+          powerRating: 3
+      },
   ]
 </script>
 
