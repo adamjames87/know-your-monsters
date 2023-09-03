@@ -99,5 +99,20 @@
 
             </div>
         </div>
+        <div class="border border-red-400 bg-red-100 p-6 rounded mt-4">
+            <h2 class="text-3xl text-center font-bold text-red-700 uppercase font-amatic">
+                The End of Know Your Monsters ?
+            </h2>
+            <div class="font-amatic text-red-800 font-semibold text-2xl">
+                <p>
+                    After I defeated Nightskull in the killer battle then the brainsucker was so angry it sent
+                    an asteroid to my house. At this point in time then it was the last day of the summer holidays
+                    and we rocking with a party, with balloons, and even a giant know your monsters fountain.
+                    Just then we saw that the asteroid was very very close and speeding fast towards us. It started to
+                    slam in just as I was trying to finish this sentence but before I am dead I might just be able to-
+
+                </p>
+            </div>
+        </div>
     </div>
 </div>
