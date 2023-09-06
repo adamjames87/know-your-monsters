@@ -1,6 +1,9 @@
 <div>
     <h1 class="font-bold px-6 mt-6 text-6xl text-center text-purple-900 font-amatic
 ">Know your Monsters - Letters</h1>
+    <div class="flex flex-row items-center justify-around">
+        <a href="/" class="text-3xl font-amatic text-green-600 font-bold underline py-6">Back to Monsters</a>
+    </div>
 
     <div class="space-y-6 mt-4">
         <div class="border border-red-400 bg-red-100 p-6 rounded mt-4">

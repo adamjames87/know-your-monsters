@@ -348,10 +348,33 @@
     <a href="/letters" class="text-3xl font-amatic text-green-600 font-bold underline py-6">Letters</a>
 </div>
 
+<div class="grid grid-cols-3">
+    {#each monsters as monster}
+        <a href={`#${monster.name}`} class="text-center font-amatic text-xl underline uppercase ">{monster.name}</a>
+    {/each}
+</div>
+
 <div class="grid grid-cols-1 gap-12">
 {#each monsters as monster}
     <MonsterCard {monster} />
   {/each}
+</div>
+<div class="border p-12">
+    <h2 class="text-center font-pm text-4xl py-7">Books</h2>
+
+    <div class="font-amatic font-semibold text-3xl text-center w-full font-pm underline">
+        A new era of know your monsters
+    </div>
+
+    <img src="/adventure_kids.png" alt="" class="w-[600px] mx-auto">
+    <div class="font-pm">
+        You know that puny kid who writes this website?! Well I'm not him!
+        I'm one of his inventions - Grundoor and I'm here to report on
+        a new era of Know - Your - Monsters. Starting now! Know your Monsters
+        books is about to begin. The first book, is a book by my friend the Nilbog.
+        The Nilbog's book is called the Adventure Kids. I hope you enjoy the book.
+        Muhahhahah
+    </div>
 </div>
 <div class="mt-12 border-t border-gray-200 pt-8 ">
   <p class="text-base text-gray-400 xl:text-center">&copy; 2023 Dad &amp; Dopes Inc. All rights reserved.</p>

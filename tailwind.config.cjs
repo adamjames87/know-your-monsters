@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         amatic: ['Amatic SC', 'cursive'],
+        pm: ['Permanent Marker', 'sans-serif'],
       }
     }
   },

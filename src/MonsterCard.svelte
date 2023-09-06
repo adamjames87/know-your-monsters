@@ -15,7 +15,7 @@
   };
 
 </script>
-<div class="p-2 border-4 border-teal-400 rounded-lg p-4">
+<div class="p-2 border-4 border-teal-400 rounded-lg p-4" id={monster.name}>
   <h3 class="font-semibold text-4xl text-center my-2 font-amatic underline">
     {monster.name}
   </h3>
