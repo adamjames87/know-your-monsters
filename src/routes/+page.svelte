@@ -359,6 +359,9 @@
     <MonsterCard {monster} />
   {/each}
 </div>
+<div class="border border-amber-500 rounded-lg p-2">
+    <a href="/monster-letters" class="font-pm text-lg mb-4">Meanwhile in know your monsters...</a>
+</div>
 <div class="border p-12">
     <h2 class="text-center font-pm text-4xl py-7">Books</h2>
 
