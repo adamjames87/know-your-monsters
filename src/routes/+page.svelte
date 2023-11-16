@@ -386,6 +386,9 @@
     {#each monsters as monster}
         <a href={`#${monster.name}`} class="text-center font-amatic text-xl underline uppercase ">{monster.name}</a>
     {/each}
+    {#each monsters_after as monster}
+        <a href={`#${monster.name}`} class="text-center font-amatic text-xl underline uppercase ">{monster.name}</a>
+    {/each}
 </div>
 
 <div class="grid grid-cols-1 gap-12">
