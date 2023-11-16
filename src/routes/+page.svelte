@@ -369,6 +369,20 @@
             fossilsDiscovered: "2019",
             funnyFact: "Sometimes it trips over the dragon tails on its back",
             video: '/videos/demogorgon.mp4',
+        },
+        {
+            name: 'The Vac-DOOM Cleaner',
+            description: 'The giant monstrous vacuum cleaner sucks up everything in its path',
+            dangerRating: 14,
+            colours: "Deep blue, with a hint of orange glow",
+            radar: 5,
+            powerRating: 32,
+            speed: 10,
+            feedsOn: "Everything in its path, except for pennies. It hates pennies",
+            poisonous: "No",
+            fossilsDiscovered: "1975",
+            funnyFact: "When it sneezes then it blows out everything it has sucked up",
+            video: '/videos/vac-doom.mp4',
         }
     ]
 

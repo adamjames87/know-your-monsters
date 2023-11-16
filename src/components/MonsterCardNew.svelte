@@ -3,6 +3,7 @@
     import SkullRating from "./SkullRating.svelte";
     import LightningBoltRow from "./LightningBoltRow.svelte";
     import MonsterRating from "./MonsterRating.svelte";
+    import HenryIcon from "./HenryIcon.svelte";
     export let monster = {
         name: 'Goblin',
         colours: "red",
@@ -49,7 +50,9 @@
                     <LightningBoltRow rating={monster.powerRating} />
                 </RatingRow>
             {/if}
-            <RatingRow key="Speed">{monster.speed}</RatingRow>
+            <RatingRow key="Speed">
+                <HenryIcon rating={monster.speed} />
+            </RatingRow>
             <RatingRow key="Feeds On">{monster.feedsOn}</RatingRow>
             <RatingRow key="Fossils Discovered">{monster.fossilsDiscovered}</RatingRow>
             <RatingRow key="Poisonous">{monster.poisonous}</RatingRow>
