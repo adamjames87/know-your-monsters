@@ -1,6 +1,8 @@
 <script>
     import RatingRow from "./RatingRow.svelte";
     import SkullRating from "./SkullRating.svelte";
+    import LightningBoltRow from "./LightningBoltRow.svelte";
+    import MonsterRating from "./MonsterRating.svelte";
     export let monster = {
         name: 'Goblin',
         colours: "red",
@@ -39,8 +41,14 @@
             <RatingRow key="Colours Feature">
                 {monster.colours}
             </RatingRow>
-            <RatingRow key="Radar">{monster.radar}</RatingRow>
-            <RatingRow key="Power">{monster.powerRating}</RatingRow>
+            <RatingRow key="Radar">
+                <MonsterRating rating={monster.radar} />
+            </RatingRow>
+            {#if monster.powerRating}
+                <RatingRow key="Power Rating">
+                    <LightningBoltRow rating={monster.powerRating} />
+                </RatingRow>
+            {/if}
             <RatingRow key="Speed">{monster.speed}</RatingRow>
             <RatingRow key="Feeds On">{monster.feedsOn}</RatingRow>
             <RatingRow key="Fossils Discovered">{monster.fossilsDiscovered}</RatingRow>

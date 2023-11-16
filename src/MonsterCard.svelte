@@ -2,6 +2,7 @@
   import RatingRow from "./components/RatingRow.svelte";
   import SkullRating from "./components/SkullRating.svelte";
   import LightningBoltRow from "./components/LightningBoltRow.svelte";
+  import EyeRating from "./components/EyeRating.svelte";
   export let monster = {
     name: 'Goblin',
     rating: 1,
@@ -32,7 +33,7 @@
     </div>
     <div class="p-6 flex flex-col space-y-2 rounded-xl">
       <RatingRow key="Danger Rating">
-        <SkullRating skulls={monster.rating} />
+        <EyeRating skulls={monster.rating} />
       </RatingRow>
       <RatingRow key="Distinguishing Feature">
         {monster.feature}
