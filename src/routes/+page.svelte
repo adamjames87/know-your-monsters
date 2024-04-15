@@ -392,6 +392,9 @@
 ">Welcome to Know your Monsters</h1>
 <p class="text-gray-500 text-center mb-4 mt-2 text-sm mb-2">A collection of monsters curated by world famous monster
     hunter Henry James</p>
+<p class="text-gray-500 text-center mb-4 mt-2 text-sm mb-2">
+    View games by Henrykhezu <a href="https://scratch.mit.edu/projects/1001219225" class="underline">here</a>
+</p>
 <div class="flex flex-row items-center justify-around">
     <a href="/letters" class="text-3xl font-amatic text-green-600 font-bold underline py-6">Letters</a>
 </div>
