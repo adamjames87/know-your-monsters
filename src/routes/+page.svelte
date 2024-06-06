@@ -425,6 +425,20 @@
             fossilsDiscovered: "2023",
             funnyFact: "The funniest bit of this profile is in this description",
             video: '/videos/lavnaktor.mp4',
+        },
+        {
+            name: 'Nightsucker',
+            description: 'I have fought a Nightsucker once. They are not the type to mess with',
+            dangerRating: 50,
+            colours: "Yellow, red, and black",
+            radar: 12,
+            powerRating: 1,
+            speed: 3,
+            feedsOn: "Anything that's smaller than it.. so a lot!",
+            poisonous: "Unknown",
+            fossilsDiscovered: "2023",
+            funnyFact: "Read some funny facts about the story of how I came to meet this creature, in the letters",
+            video: '/videos/nightsucker.mp4',
         }
     ]
 
