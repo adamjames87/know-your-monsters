@@ -482,6 +482,9 @@
 <div class="flex flex-row items-center justify-around">
     <a href="/letters" class="text-3xl font-amatic text-green-600 font-bold underline py-6">Letters</a>
 </div>
+<div class="text-center text-4xl my-12">
+    Now with {monsters.length + monsters_after.length} monsters!
+</div>
 
 <div class="grid grid-cols-3">
     {#each monsters as monster}
