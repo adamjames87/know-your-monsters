@@ -3,6 +3,8 @@
   import SkullRating from "./components/SkullRating.svelte";
   import LightningBoltRow from "./components/LightningBoltRow.svelte";
   import EyeRating from "./components/EyeRating.svelte";
+  import { enhance} from '$app/forms';
+
   export let monster = {
     name: 'Goblin',
     rating: 1,
@@ -14,6 +16,7 @@
     tale: undefined,
 
   };
+  export let hearts = 0;
 
 </script>
 <div class="p-2 border-4 border-teal-400 rounded-lg p-4" id={monster.name}>
@@ -49,5 +52,11 @@
       <RatingRow key="Tale">{monster.tale}</RatingRow>
         {/if}
     </div>
+  </div>
+  <div>
+    <form method="POST" use:enhance>
+      <input name="monster" value={monster.name} type="hidden">
+      <button class="bg-red-300 p-2 rounded-xl border ">Like ({hearts})</button>
+    </form>
   </div>
 </div>
