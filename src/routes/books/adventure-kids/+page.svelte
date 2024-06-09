@@ -1,9 +1,11 @@
 <script>
+	import {enhance} from '$app/forms';
+
 	/** @type {import('./$types').PageData} */
 	export let data;
+
 </script>
 <div>
-	{JSON.stringify(data)}
 	<h1 class="text-center text-2xl">Adventure Kids</h1>
 
 	<img class="mx-auto"	src="/adeventure-kids-cover.png" />
@@ -48,7 +50,7 @@
 				{/each}
 		</div>
 		<div class="mt-4 border-t pt-4">
-			<form method="POST">
+			<form method="POST" use:enhance>
 				<input type="hidden" value="adventure-kids" name="story">
 				<div class="flex flex-col space-y-2">
 					<label for="" class="text-sm font-semibold">Username</label>

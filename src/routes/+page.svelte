@@ -489,9 +489,6 @@
     ]
 
 </script>
-<pre>
-    {JSON.stringify(data.hearts)}
-</pre>
 <h1 class="font-bold px-6 mt-6 text-6xl text-center text-purple-900 font-amatic
 ">Welcome to Know your Monsters</h1>
 <p class="text-gray-500 text-center mb-4 mt-2 text-sm mb-2">A collection of monsters curated by world famous monster
