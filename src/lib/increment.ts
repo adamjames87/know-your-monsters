@@ -18,7 +18,7 @@ export const incrementStars = async (monster_id: string) => {
 		.values({count: 1, monster: monster_id, starCount: 0})
 		.onConflictDoUpdate({
 			target: heartsTable.monster,
-			set: { count: sql`${heartsTable.count} + 1`}
+			set: { starCount: sql`${heartsTable.starCount} + 1`}
 		});
 }
 

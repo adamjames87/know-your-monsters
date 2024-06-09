@@ -12,6 +12,14 @@
         }
     }
 
+    let starsMap = {};
+    $: {
+        for (let i = 0; i < data.hearts.length; i++) {
+            const starValue = data.hearts[i]
+            starsMap[starValue.monster] = starValue.starCount;
+        }
+    }
+
     const monsters = [
         {
             name: 'Blarg',
@@ -481,8 +489,9 @@
     ]
 
 </script>
-
-{JSON.stringify(heartsMap)}
+<pre>
+    {JSON.stringify(data.hearts)}
+</pre>
 <h1 class="font-bold px-6 mt-6 text-6xl text-center text-purple-900 font-amatic
 ">Welcome to Know your Monsters</h1>
 <p class="text-gray-500 text-center mb-4 mt-2 text-sm mb-2">A collection of monsters curated by world famous monster
@@ -508,7 +517,10 @@
 
 <div class="grid grid-cols-1 gap-12">
     {#each monsters as monster}
-        <MonsterCard {monster} hearts={heartsMap[monster.name] ?? 0}/>
+        <MonsterCard {monster}
+                     hearts={heartsMap[monster.name] ?? 0}
+                     stars={starsMap[monster.name] ?? 0}
+        />
     {/each}
 </div>
 <div class="border border-amber-500 rounded-lg p-2">
@@ -535,7 +547,10 @@
 </div>
 <div class="grid grid-cols-1 gap-12">
     {#each monsters_after as monster}
-        <MonsterCardNew {monster} hearts={heartsMap[monster.name] ?? 0}/>
+        <MonsterCardNew {monster}
+                        hearts={heartsMap[monster.name] ?? 0}
+                        stars={starsMap[monster.name] ?? 0}
+        />
     {/each}
 </div>
 <div class="mt-12 border-t border-gray-200 pt-8 ">

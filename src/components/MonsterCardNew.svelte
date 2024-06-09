@@ -21,6 +21,7 @@
         video: '',
     };
     export let hearts = 0;
+    export let stars = 0;
 
 </script>
 <div class="p-2 border-4 border-teal-400 rounded-lg p-4" id={monster.name}>
