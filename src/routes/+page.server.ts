@@ -12,9 +12,7 @@ export const load : PageServerLoad = async ({params}) => {
 
 export const actions: Actions = {
 	default: async (event) => {
-		console.log("HIT");
 		const data = await event.request.formData();
-		console.log(data.get("monster"))
 		const monster = data.get("monster");
 		if (monster) {
 			if (typeof monster === 'string') {

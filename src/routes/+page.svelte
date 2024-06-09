@@ -533,7 +533,7 @@
 </div>
 <div class="grid grid-cols-1 gap-12">
     {#each monsters_after as monster}
-        <MonsterCardNew {monster}/>
+        <MonsterCardNew {monster} hearts={heartsMap[monster.name] ?? 0}/>
     {/each}
 </div>
 <div class="mt-12 border-t border-gray-200 pt-8 ">
