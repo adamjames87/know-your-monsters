@@ -1,6 +1,7 @@
 <div>
 	<h1 class="text-center text-2xl">Adventure Kids</h1>
 
+	<img class="mx-auto"	src="/adeventure-kids-cover.png" />
 	<div class=" flex flex-col space-y-4">
 		<h2 class="font-semibold">Chapter 1</h2>
 		<div>

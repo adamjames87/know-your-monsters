@@ -515,7 +515,9 @@
     <a href="/monster-letters" class="font-pm text-lg mb-4">Meanwhile in know your monsters...</a>
 </div>
 <div class="border p-12">
-    <h2 class="text-center font-pm text-4xl py-7">Books</h2>
+    <div class="flex justify-center">
+        <a href="/books" class="text-center font-pm text-4xl py-7 mx-auto">Books</a>
+    </div>
 
     <div class="font-amatic font-semibold text-3xl text-center w-full font-pm underline">
         A new era of know your monsters
