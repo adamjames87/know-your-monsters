@@ -6,3 +6,9 @@ export const heartsTable = sqliteTable( 'message_reactions', {
 	starCount: integer('star_count').notNull()
 });
 
+export const commentsTable = sqliteTable( 'story_comments', {
+	story: text('story_id').notNull(),
+	user: text('username').notNull(),
+	comment: text('comment').notNull()
+});
+

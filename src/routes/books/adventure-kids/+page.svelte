@@ -1,4 +1,9 @@
+<script>
+	/** @type {import('./$types').PageData} */
+	export let data;
+</script>
 <div>
+	{JSON.stringify(data)}
 	<h1 class="text-center text-2xl">Adventure Kids</h1>
 
 	<img class="mx-auto"	src="/adeventure-kids-cover.png" />
@@ -27,5 +32,35 @@
 			Blitz and Scarlet.
 		</p>
 		<h2 class="font-semibold">Chapter 2</h2>
+	</div>
+	<div class="border-t mt-12 py-6 bg-green-50 p-2">
+		<h3 class="text-2xl text-center border-b border-green-300 pb-2">Comments</h3>
+		<div class="divide-y divide-green-300 bg-green-50">
+			{#each data.comments as comment}
+				<div class="py-4">
+					<span class="font-semibold">
+					{comment.user} says...
+					</span>
+					<div>
+						{comment.comment}
+					</div>
+				</div>
+				{/each}
+		</div>
+		<div class="mt-4 border-t pt-4">
+			<form method="POST">
+				<input type="hidden" value="adventure-kids" name="story">
+				<div class="flex flex-col space-y-2">
+					<label for="" class="text-sm font-semibold">Username</label>
+					<input type="text" name="username" class="border rounded w-full" >
+				</div>
+				<div class="flex flex-col space-y-2">
+					<label for="" class="text-sm font-semibold">Comment</label>
+					<textarea  name="comment" class="border rounded w-full" />
+				</div>
+				<button class="bg-green-200 p-2 rounded border-green-600 py-2">Add comment</button>
+
+			</form>
+		</div>
 	</div>
 </div>
