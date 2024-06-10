@@ -9,6 +9,80 @@
 	<h1 class="text-center text-2xl">Adventure Kids</h1>
 
 	<img class="mx-auto"	src="/adeventure-kids-cover.png" />
+	<h1 class="text-center text-2xl">Characters</h1>
+	<div class="border-green-600 border p-2">
+		<img src="/baxy.png"  class="h-48"/>
+		<ul>
+			<li>
+				Name: Baxy
+			</li>
+			<li>
+				Gender: Female
+			</li>
+			<li>
+				Habitat: Glacido Mountains, The dungeons
+			</li>
+			<li>
+				Known Info: Baxi is an Artibax that Scarlet and Blitz met in an avalance.
+				He has the power to glow and do horse kicks
+			</li>
+			<li>
+				Weapon of Choice: Ferocious Claws, Deadly Tail, An Icy Sharp Beak
+			</li>
+		</ul>
+	</div>
+	<div class="border-amber-600 border mt-4 p-2">
+		<img src="/blitz.png"  class="h-48"/>
+		<ul>
+			<li>
+				Name: Blitz
+			</li>
+			<li>
+				Gender: Male
+			</li>
+			<li>
+				Habitat: None really
+			</li>
+			<li>
+				Known Info: Blitz is a kind happy adventure kid although he was
+				put on a dangerous job to investigate the dungeons. Scarlet often
+				gets annoyed with him but he normally does keep everybody's
+				spirits up.
+			</li>
+			<li>
+				Weapon of Choice: Toad Cannon
+			</li>
+		</ul>
+
+	</div>
+	<div class="border-amber-600 border mt-4 p-2">
+		<img src="/scarlet.png"  class="h-48"/>
+		<ul>
+			<li>
+				Name: Scarlet
+			</li>
+			<li>
+				Gender: Male
+			</li>
+			<li>
+				Habitat: Dark stormy nights mainly
+			</li>
+			<li>
+				Known Info: Even when Scarlet was very young he tended
+				to go exploring for monsters he saw in a guide book
+				he had found when an explosion blew his school up.
+				This book has taught him everything he knows and now
+				that his is in the main habitat of beasts (the dungeons)
+				he wants nothing more than to see a hundred of each
+				monster. Maybe even an Enderbeast.
+			</li>
+			<li>
+				Weapon of Choice: He is basically entirely weapons
+			</li>
+		</ul>
+
+	</div>
+
 	<div class=" flex flex-col space-y-4">
 		<h2 class="font-semibold">Chapter 1</h2>
 		<div>
